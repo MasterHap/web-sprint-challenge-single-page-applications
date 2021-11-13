@@ -83,10 +83,10 @@ let history = useHistory()
         <h1>Lambda Eats</h1>
         <nav>
           <Link className="navbar" to="/">Home</Link>
-          <Link className="pizza" to="/pizza" >Pizza Time</Link>
-          <Link to="/completion" >Completion</Link>
+          <Link to="/completion" ></Link>
         </nav>
       </header>
+      
       <main>
       <Switch>
         <Route path='/completion'>

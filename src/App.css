@@ -36,14 +36,42 @@
     transform: rotate(360deg);
   }
 }
-
+h1{
+  font-weight: bold;
+  color: red;
+}
+h2{
+  font-weight: bold;
+  text-align: center;
+  font-size: 5rem;
+}
 header{
   display: flex;
+  justify-content: space-around;
+}
+.navbar{
+  text-decoration: none;
+  border: solid 1px;
+  padding: 20%;
+  padding-left: 90%;
+  padding-right: 90%;
+  font-size: 1.5rem;
+  color: black;
+  font-weight: bold;
   
 }
-a{
-  text-decoration: none;
-
+.pizza{
+  display: flex;
+  justify-content: center;
+  color:rgb(236, 236, 4);
+  text-decoration:none;
+  font-size: 5rem;
+  font-weight: bold;
+  border: solid black 3px;
+  background-color: black;
+  padding: 1%;
+  margin-left: 37%;
+  margin-right: 37%;
 }
 form{
   display: flex;

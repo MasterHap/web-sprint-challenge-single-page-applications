@@ -7,7 +7,7 @@ const Pizza = (props) => {
     const {inputChange, formValues, formErrors, boughtNow} = props
 
     return(
-        <div>Pizza Time
+        <div>
             <form onSubmit={boughtNow}>
                 <label>
                     name: {formErrors.name}
@@ -40,7 +40,7 @@ const Pizza = (props) => {
                     <input onChange={(e) => inputChange(e.target.name, e.target.value)} 
                     type="text" name="special" value={formValues.special}/>
                 </label>
-                <button type="submit" disabled={props.disabled}>Order Pizza Now!!</button>
+                <button type="submit" testid="testSubmit" disabled={props.disabled}>Order Pizza Now!!</button>
             </form>
         </div>
     )
